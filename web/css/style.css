@@ -133,7 +133,10 @@ img {
 }
 .emag-credit p {
     margin-bottom: 0;
-    font-family: 'Gotham', sans-serif;
+    font-family: 'NotoSerif', sans-serif;
+    font-weight: 700;
+    border-left: solid 3px #315fab;
+    padding-left: 15px;
 }
 .emag-column::after {
     content: '';
@@ -149,7 +152,7 @@ img {
     margin-left: 4px;
 }
 .hasBorder {
-    height: 640px;
+    height: 650px;
     position: relative;
 }
 .hasBorder::after {
